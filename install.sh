@@ -1,4 +1,49 @@
-#!/usr/bin/env bash
+#!/bin/sh
+
+
+ 
+# Get the latest package lists
+apt-get update
+apt-get upgrade
+apt install python3-pip
+ 
+# Git Clone
+git clone https://github.com/lahirubro123/v2-ui-plus.git
+mv v2-ui-plus /usr/local/sbin/v2-ui-plus
+
+# Install from Repo
+cd /usr/local/sbin/v2-ui-plus
+pip3 install -r requirements.txt
+
+# Install snap packages
+tmux 
+cd /usr/local/sbin/v2-ui-plus
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get install certbot
+
+
+ 
+# Install DEB files
+dpkg -i keybase_amd64.deb
+dpkg -i atom-amd64.deb
+dpkg -i Minecraft.deb
+apt --fix-broken install -y # Fix Minecraft dependency issue.
+ 
+# Clean up DEB files
+rm -f keybase_amd64.deb
+rm -f Minecraft.deb
+rm -f atom-amd64.deb
+ 
+# Install requirements for Ulauncher PW generator
+apt install python3-pip -y
+pip3 install pwgen
+ 
+# Final message
+echo All application have been installed, the script will now quit.
+ 
+# Exit the script
+exit 0
 
 red='\033[0;31m'
 green='\033[0;32m'
