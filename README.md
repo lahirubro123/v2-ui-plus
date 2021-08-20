@@ -7,19 +7,19 @@
 
 ## Feature
 Repair the existing BUG and optimize some functions; <br>
-Increase account management function
-Common users and administrator users can be added, the first user is the administrator user by default and cannot be deleted;
-Multiple accounts can be activated/deactivated/deleted in batches, and they can be sorted by creation/user name/traffic in ascending and descending order;
+Increase account management function <br>
+Common users and administrator users can be added, the first user is the administrator user by default and cannot be deleted; <br>
+Multiple accounts can be activated/deactivated/deleted in batches, and they can be sorted by creation/user name/traffic in ascending and descending order; <br>
 Each user can independently add multiple inbound configurations, and each inbound configuration separately counts traffic.
-Now you can add the configuration of the same port, and automatically merge the configuration of the same protocol and the same port before writing the configuration file;
+Now you can add the configuration of the same port, and automatically merge the configuration of the same protocol and the same port before writing the configuration file; <br>
 Modify the traffic statistics method to "email" to facilitate independent statistics on the traffic of each inbound configuration after the configuration is merged;
-Add Dockerfile, you can use this project in Docker after compiling by yourself;
-Add the "v2ray external port" setting item to display the external port of Haproxy or Nginx proxy to generate the correct configuration link/QR code;
-Add the “v2ray external TLS” setting item to display the TLS status of Haproxy or Nginx proxy to generate the correct configuration link/QR code;
-Fix the log function, now the log can be successfully output to stdout and log file;
-Add "Use Xray-Core" setting item, which can replace Core with Xray-Core, and add fallback support;
-Use modifiers to easily implement authentication functions;
-Now "in order of creation" sorting can be used normally.
+Add Dockerfile, you can use this project in Docker after compiling by yourself; <br>
+Add the "v2ray external port" setting item to display the external port of Haproxy or Nginx proxy to generate the correct configuration link/QR code; <br>
+Add the “v2ray external TLS” setting item to display the TLS status of Haproxy or Nginx proxy to generate the correct configuration link/QR code; <br>
+Fix the log function, now the log can be successfully output to stdout and log file; <br>
+Add "Use Xray-Core" setting item, which can replace Core with Xray-Core, and add fallback support; <br>
+Use modifiers to easily implement authentication functions; <br>
+Now "in order of creation" sorting can be used normally. <br>
 
 
 ## How To Use
