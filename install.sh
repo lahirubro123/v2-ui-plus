@@ -27,14 +27,15 @@ read email
 echo what is your doamin ?
 read domain
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email $email -d $domain 
-echo please save this text and type any key and press enter
-read -r -s -p $'Press enter to continue...'
+
 
 # open tmux session
 cd /usr/local/sbin/v2-ui-plus
 tmux new-session -d -s v2ray python3 v2-ui.py
 echo panel  your_ip:65432
 echo Thank You.....!! (Bunny_lk)
+echo press enter to exit
+read -r -s -p $'Press enter to continue...'
 
 
 
