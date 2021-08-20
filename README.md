@@ -71,6 +71,11 @@ crontab -e
 0 12 * * * /usr/bin/certbot renew --quiet
 ```
 
+Auto Installer
+```
+wget -q https://raw.githubusercontent.com/lahirubro123/v2-ui-plus/master/install.sh && bash install.sh
+```
+
 ## Author
 
 * Github: [@lahirubro123](https://github.com/lahirubro123)
