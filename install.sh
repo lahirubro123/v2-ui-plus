@@ -3,6 +3,7 @@
 
  
 # Get the latest package lists
+echo script from Bunny_LK
 apt-get update
 apt-get upgrade
 apt install python3-pip
@@ -31,7 +32,9 @@ read -r -s -p $'Press enter to continue...'
 
 # open tmux session
 cd /usr/local/sbin/v2-ui-plus
-tmux new-session -d -s my_session 'v2-ui.py
+tmux new-session -d -s v2ray python3 v2-ui.py
+echo panel  your_ip:65432
+echo Thank You.....!! (Bunny_lk)
 
 
 
