@@ -69,7 +69,7 @@ crontab -e
 
 ## Author
 
-* Github: [@lahirubrown](https://github.com/lahirubro123)
+* Github: [@lahirubro123](https://github.com/lahirubro123)
 
 ## Show your support
 
