@@ -1,3 +1,10 @@
+<h1 align="center">Welcome to v2ray-ui++ 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.5.1-blue.svg?cacheSeconds=2592000" />
+</p>
+
+> This is an enhanced version of the original author's version of v2-ui , which adds functions such as account management, single port and multiple users, and more functions are still in the secondary development
+
 ## Feature
 Repair the existing BUG and optimize some functions;
 Increase account management function
