@@ -30,7 +30,9 @@ echo please save this text and type any key and press enter
 read -r -s -p $'Press enter to continue...'
 
 # open tmux session
-tmux new-session -d -s "myTempSession" /usr/local/sbin/v2-ui-plus python3 v2-ui-plus.py
+cd /usr/local/sbin/v2-ui-plus
+tmux new-session -d -s my_session 'v2-ui.py
+
 
 
 
