@@ -6,7 +6,7 @@
 > This is an enhanced version of the original author's version of v2-ui , which adds functions such as account management, single port and multiple users, and more functions are still in the secondary development
 
 ## Feature
-Repair the existing BUG and optimize some functions;
+Repair the existing BUG and optimize some functions; <br>
 Increase account management function
 Common users and administrator users can be added, the first user is the administrator user by default and cannot be deleted;
 Multiple accounts can be activated/deactivated/deleted in batches, and they can be sorted by creation/user name/traffic in ascending and descending order;
