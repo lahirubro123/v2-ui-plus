@@ -1,4 +1,4 @@
-# 注意
+# clone repo to your vps
 
 这是 [v2-ui](https://github.com/sprov065/v2-ui) 原作者版本的加强版，增加账号管理、单端口多用户等功能，更多功能还在二次开发中。
 
