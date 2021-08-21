@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 cd /usr/local/sbin/v2-ui-plus
 tmux new-session -d -s v2ray python3 v2-ui.py
 echo please wait adding cronjob
-(crontab -l; echo "30 0 * * * 0 12 * * * /usr/bin/certbot renew --quiet") | sort -u | crontab -
+
 echo panel  your_ip:65432
 echo Thank You.....!! (Bunny_lk)
 read -r -s -p $'Press enter to continue...'
@@ -38,7 +38,12 @@ echo Hello, what is your e mail address ?
 read email
 echo what is your doamin ?
 read domain
+
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email $email -d $domain 
+read -r -s -p $'Press enter to continue...'
+(crontab -l; echo "30 0 * * * 0 12 * * * /usr/bin/certbot renew --quiet") | sort -u | crontab -
+
+echo thank you
 
 
 
