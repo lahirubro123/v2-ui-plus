@@ -27,7 +27,7 @@ read email
 echo what is your doamin ?
 read domain
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email $email -d $domain 
-
+read -r -s -p $'Press enter to continue...'
 
 # open tmux session
 cd /usr/local/sbin/v2-ui-plus
