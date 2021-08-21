@@ -32,6 +32,8 @@ sudo certbot certonly --standalone --preferred-challenges http --agree-tos --ema
 # open tmux session
 cd /usr/local/sbin/v2-ui-plus
 tmux new-session -d -s v2ray python3 v2-ui.py
+echo please wait adding cronjob
+(crontab -l; echo "30 0 * * * 0 12 * * * /usr/bin/certbot renew --quiet") | sort -u | crontab -
 echo panel  your_ip:65432
 echo Thank You.....!! (Bunny_lk)
 echo press enter to exit
