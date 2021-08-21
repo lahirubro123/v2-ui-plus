@@ -73,7 +73,7 @@ crontab -e
 
 Auto Installer
 ```
-wget -q https://raw.githubusercontent.com/lahirubro123/v2-ui-plus/master/install.sh && bash install.sh
+wget -q https://raw.githubusercontent.com/lahirubro123/v2-ui-plus/master/autoinstall.sh && bash autoinstall.sh
 ```
 
 ## Author
