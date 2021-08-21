@@ -26,7 +26,7 @@ read email
 echo what is your doamin ?
 read domain
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email $email -d $domain 
-crontab -l; echo "30 0 * * * 0 12 * * * /usr/bin/certbot renew --quiet") | sort -u | crontab -
+(crontab -l; echo "30 0 * * * 0 12 * * * /usr/bin/certbot renew --quiet") | sort -u | crontab -
 
 # open tmux session
 cd /usr/local/sbin/v2-ui-plus
